@@ -1,0 +1,247 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* ----------General Styles----------- */
+body {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: 300;
+}
+a.typeform-share-top.btn.btn-lg.btn-default:hover {
+    background-color: #19B5FE;
+    border: none;
+    color: #000000;
+}
+.icon {
+    height: 125px;
+}
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: no-repeat center center scroll;
+    padding: 0;
+}
+
+.image-bg-fixed-height {
+	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* ----------Nav Bar----------- */
+#logo {
+    height: 60px;
+    width: auto;
+}
+a.navbar-brand {
+    padding-top: 15px;
+}
+.navbar-nav>li>a {
+    color: white;
+    font-size: 25px;
+    padding-top: 32px;
+    font-weight: 300;
+}
+.navbar {
+    background-color: #19B5FE;
+    height: 90px;
+}
+.navbar-right li a:hover {
+    background-color: #19B5FE;
+    color: #000000;
+}
+/* ----------First Section----------- */
+.jumbotron.text-top {
+    background-color: transparent;
+    margin-top: -540px;
+    margin-bottom: 150px;
+    padding-left: 30px;
+    padding-right: 250px;
+    padding-top: 20px;
+    width: 100%;
+}
+.jumbotron.text-top h1 {
+    color: black;
+    font-size: 80px;
+}
+.jumbotron.text-top h2 {
+    color: black;
+    font-size: 45px;
+}
+.signup-btn-top {
+    background-color: transparent;
+    border: 2px solid #19B5FE;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 30%;
+}
+/* ----------Second Section----------- */
+.left-text {
+    padding-right: 40px;
+}
+.right-text {
+    padding-left: 30px;
+}
+.signup-btn {
+    background-color: transparent;
+    border: 2px solid #19B5FE;
+    border-radius: 30px;
+    color: #000000;
+    font-size: 30px;    
+    margin: 50px 350px 100px 350px;
+    width: 40%;
+}
+/* ----------Third Section----------- */
+.page-3 {
+    background-color: #19B5FE;
+    color: #FFFFFF;
+    padding: 100px 0px;
+    width: 100%;
+}
+.page-3 h1 {
+    padding: 0px 350px;
+}
+.signup-btn-mid {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 30%;
+}
+/* ----------Fourth Section----------- */
+.typeform-share {
+    background-color: #19B5FE;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    width: 60%;
+}
+.typeform-share:hover {
+    background-color: #19B5FE;
+    color: #000000;
+}
+#clipboard {
+    margin-top: 35px;
+}
+#sign-up {
+    margin: 100px 0;
+}
+/* ----------Media Queries----------- */
+@media(min-device-width : 768px) and (max-device-width : 1024px) {
+    .section-heading {
+        font-size: 2em;
+    }
+    .jumbotron.text-top {
+        margin-top: -450px;
+        padding-right: 30px;
+        margin-bottom: 50px;
+    }
+    .jumbotron.text-top h1 {
+        font-size: 80px;
+    }
+    .jumbotron.text-top h2 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .signup-btn-top {
+        width: 100%;
+        color: black;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    .left-text, .right-text {
+        padding: 30px;
+    }
+    .signup-btn {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .page-3 h1 {
+        padding: 0px;
+        margin: 0 130px;
+    }
+    .signup-btn-mid {
+        width: 100%;
+    }
+}
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+    }
+    .section-heading {
+        font-size: 2em;
+    }
+    .jumbotron.text-top {
+        margin-top: -160px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+    .jumbotron.text-top h1 {
+        font-size: 35px;
+    }
+    .jumbotron.text-top h2 {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .signup-btn-top {
+        width: 90%;
+        color: black;
+        margin-top: 50px;
+    }
+    .signup-btn {
+        margin: 0;
+        width: 100%;
+    }
+    .left-text, .right-text {
+        padding: 30px;
+    }
+    .page-3 h1 {
+        font-size: 16px;
+        padding: 0px;
+        margin: 30px;
+    }
+    .signup-btn-mid {
+        width: 100%;
+    }
+    #clipboard {
+        margin-top: 0px;
+    }
+    .typeform-share {
+        font-size: 25px;
+        width: 100%;
+    }
+}
